@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background: linear-gradient(to left,#4E4C4C,#C2BDBD);
+}
+
+section{
+    display:flex;
+    height: 85vh;
+    justify-content: center;
+    align-items: center;
+}
+
+
+ h1{
+    display: flex;
+    background:rgba(85,214,170,.85) ; 
+    align-items: center;
+    width: 100%;
+ }
+
+
+
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+
+nav li{
+   display: inline-block;
+   padding: 0px 20px; 
+}
+
+nav li a{
+    transition: all 0.3 ease 1s;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    font-size:1.2rem;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    color: #000;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.box {
+    border-radius: 10px;
+    width: 1500px;
+    height: 1500px;
+    background-color:rgb(52, 52, 52) ;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-bottom: 30px;
+}
+
+#Cannes
+{
+    color: antiquewhite;
+    font-family: 'Oswald', sans-serif;
+    font-size: 45px;
+    margin-left: 50px;
+}
+
+.newstext
+{
+    color: antiquewhite;
+    font-family: 'Oswald', sans-serif;  
+    font-size: 20px;
+    margin-left: 50px; 
+    margin-right: 50px;
+}
+
+#TTM
+{
+    color: antiquewhite;
+    font-family: 'Oswald', sans-serif;
+    font-size: 45px;
+    margin-left: -20px;
+}
+
+
+
+
+
+

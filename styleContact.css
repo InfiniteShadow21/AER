@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background: linear-gradient(to left,#4E4C4C,#C2BDBD);
+}
+
+section{
+    display:flex;
+    height: 85vh;
+    justify-content: center;
+    align-items: center;
+}
+
+
+ h1{
+    display: flex;
+    background:rgba(85,214,170,.85) ; 
+    align-items: center;
+    width: 100%;
+ }
+
+
+
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+
+nav li{
+   display: inline-block;
+   padding: 0px 20px; 
+}
+
+nav li a{
+    transition: all 0.3 ease 1s;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    font-size:1.2rem;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    color: #000;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+@import "compass/css3";
+
+@import url(https://fonts.googleapis.com/css?family=Merriweather);
+
+
+h2 {
+   text-align: center;
+}
+
+form {
+   max-width: 600px;
+   text-align: center;
+   margin: 20px auto;
+}
+
+  input, textarea {
+    border:0; outline:0;
+    padding: 1em;
+    border-radius: 8px;
+    display: block;
+    width: 100%;
+    margin-top: 1em;
+    font-family: 'Merriweather', sans-serif;
+   resize: none;
+  }
+  
+  #input-submit {
+     color: black; 
+     cursor: pointer;
+    
+  }
+  
+  textarea {
+      height: 126px;
+  }
+
+
+
+.half {
+  float: left;
+  width: 48%;
+  margin-bottom: 1em;
+}
+
+.right { width: 50%; }
+
+.left {
+     margin-right: 2%; 
+}
+
+
+@media (max-width: 480px) {
+  .half {
+     width: 100%; 
+     float: none;
+     margin-bottom: 0; 
+  }
+}
+
+
+/* Clearfix */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+.box {
+    border-radius: 10px;
+    width: 700px;
+    height: 350px;
+    background-color:rgb(52, 52, 52) ;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-bottom: 30px;
+}
+#Contact
+{
+    color: antiquewhite;
+    font-family: 'Oswald', sans-serif;
+    font-size: 35px;
+    margin-left: 225px;
+}
+
+.cf
+{
+    font-family: 'Merriweather', sans-serif;
+}
+
+
+
+
+
+
