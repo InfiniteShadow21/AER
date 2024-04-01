@@ -65,13 +65,15 @@ header{
 .box {
     border-radius: 10px;
     width: 1500px;
-    height: 3100px;
+    height: 3150px;
     background-color:rgb(52, 52, 52) ;
     margin: 0 auto;
     overflow: hidden;
     margin-top: 40px;
     margin-bottom: 40px;
-    padding-bottom: 30px;
+    padding-bottom: 70px;
+    padding-top : 20px;
+    
 }
 
 .slider
@@ -81,6 +83,7 @@ header{
     border-radius: 10px;
     overflow: hidden;
     margin-left: 250px;
+    margin-bottom: 30px;
 }
 
 .slides{
