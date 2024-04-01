@@ -1,3 +1,3 @@
 # AER
-This is a site for publishing personal reviews about movies, tv series and any other media.
-Here you can see my thoughts about different types of media, news about actors and publishings, you can also give me a feedback through the forms.
+.
+Welcome to AER, where I share my personal insights on movies, TV series, and various other forms of media. Explore my thoughts, stay updated on actor news, and feel free to provide feedback through our forms.
